@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-codeceptjs",
+  "version": "1.0.0",
+  "description": "this is the boilerplate of codeceptjs in typescript",
+  "main": "index.js",
+  "scripts": {
+    "tests:web": "codeceptjs run --config=./codecept.conf.ts --debug",
+    "tests:web:tag": "codeceptjs run --config=./codecept.conf.ts --debug --grep",
+    "tests:web:headless": "HEADLESS=true codeceptjs run --config=./codecept.conf.ts --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendypratama8/boilerplate-codeceptjs.git"
+  },
+  "author": "rendypratama8",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/configure": "^1.0.4",
+    "@types/node": "^22.15.21",
+    "codeceptjs": "^3.7.3",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.52.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
