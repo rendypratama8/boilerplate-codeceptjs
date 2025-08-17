@@ -1,7 +1,8 @@
 Feature: FeatureName
   As a user, I want to be able to use the feature
 
-  @TAG-HERE // add your tag here, beneficial if want to run several test cases in different module
+  // add your tag here, beneficial if want to run several test cases in different module
+  @TAG-HERE 
   Scenario Outline: <ID>: As a user, I can use the feature dashboard
     Given write your given scenario here
     When write your when scenario here
